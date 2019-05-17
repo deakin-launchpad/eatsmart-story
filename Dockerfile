@@ -3,7 +3,7 @@ FROM node:10
 WORKDIR /app 
 COPY . . 
 
-EXPOSE 3014
+EXPOSE 4001
 
 RUN npm install 
 
